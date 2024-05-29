@@ -68,3 +68,26 @@ body {
     font-size: 16px;
     cursor: pointer;
 }
+
+@media screen and (max-width: 768px) {
+    .container {
+        padding: 10px; 
+    }
+
+    .flags img {
+        width: 40px; 
+    }
+
+    .middle {
+        margin: 0 10px; 
+    }
+
+    .phrase {
+        font-size: 16px;
+    }
+
+    .input-area input {
+        width: 90%; 
+        max-width: 250px; 
+    }
+}
