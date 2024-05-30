@@ -21,7 +21,7 @@
                 <img src="Image/france.jpg" alt="Français" id="french-flag">
             </div>
             <div class="middle">
-                <div class="phrase" id="phrase">Cliquez sur 'Démarrer' pour commencer</div>
+                <div class="phrase" id="phrase"></div>
                 <div class="input-area">
                     <input type="text" id="translation" placeholder="Traduisez ici..." disabled>
                 </div>
@@ -61,7 +61,7 @@
                 englishFlag.alt = 'Anglais';
             }
         }
-        let score = 0;
+let score = 0;
 let combo = 1;
 
 function startGame() {
