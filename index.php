@@ -7,8 +7,41 @@
     <link href="Css/style.css" rel="stylesheet">
     <link rel="icon" type="image/png" href="Image/icon.jpeg">
 
+    <style>
+    .back-btn {
+        display: inline-block;
+        margin: 18px 0 0 18px;
+        padding: 10px 22px;
+        background: #2563eb;
+        color: #fff;
+        border-radius: 8px;
+        text-decoration: none;
+        font-weight: 500;
+        font-size: 1.08em;
+        box-shadow: 0 2px 8px rgba(37,99,235,0.10);
+        transition: background 0.15s, transform 0.13s;
+        position: absolute;
+        left: 0;
+        top: 0;
+        z-index: 10;
+    }
+    .back-btn:hover {
+        background: #1e40af;
+        transform: translateY(-2px) scale(1.03);
+        color: #dbeafe;
+    }
+    @media (max-width: 600px) {
+        .back-btn {
+            margin: 10px 0 0 6px;
+            padding: 8px 12px;
+            font-size: 0.98em;
+        }
+    }
+    </style>
+
 </head>
 <body>
+    <a href="/index.php" class="back-btn">&#8592; Retour à l'accueil</a>
     <div class="container">
         <img class="icon" src="Image/icon.jpeg" alt="LogoOfficiel" id="LogoOfficiel">
         <div class="header">
